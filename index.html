@@ -19,29 +19,59 @@
 
         <div class="topnav" id="myTopnav">
         <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact Us</a>
+        <a href="about">About us</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
         </a>
         </div>
-         <div class="pizza-image">
-            <div class="container" id="landing">
+         
+            <div class="pizza-image">
                 <img src="images/pizza-logo-9092058631-seeklogo.com.png" alt="logo">
                 <h2>WELCOME  TO PIZZArray</h2>
                 <p>HOME OF THE MOST SCRUMPTIOUS PIZZA </p>
         <p>Whether you order from a pizzeria on a Saturday night or sell homemade slices at the school dance, everybody loves pizza. Depending on how it’s made, pizza can be a nutritious choice</p>
-       
+            </div>
+         
+         
 
 <div id="make-order">
-    <select style="background: transparent;" name="size" id="size">
-        <option value="large">Large</option>
-        <option value="medium">Medium</option>
-        <option value="small">Small</option>
-      </select>
+   
+      
 </div>
+<div class="col-md-3">
 
+    <label for="size" style="color:orange">Size</label>
+    <select class="browser-default custom-select" id="size">
+        <option value="">Choose option</option>
+        <option value="1500">Large =ksh 1500</option>
+        <option value="1000">Medium =ksh 1000</option>
+        <option value="500">Small= ksh500</option>
+    </select><br>
+    <div class="col-md-3">
+
+        <label for="crust" style="color:orange">Crust</label>
+        <select class="browser-default custom-select" id="crust">
+            <option value="choose type of crust">Choose option</option>
+            <option value="150">Crispy =ksh 150</option>
+            <option value="100">Stuffed=ksh 100</option>
+            <option value="70">Gluten-free =ksh 70</option>
+        </select><br>
+    </div>
+    <div class="col-md-3">
+
+        <label for="toppings" name="toppings" style="color:orange">Toppings</label>
+        <select class="browser-default custom-select" id="toppings">
+            <option value="choose topings">Choose option</option>
+            <option value="60">Cheese =ksh60</option>
+            <option value="60">olive =ksh60
+                <option value="60">Cheese =ksh60</option>
+                <option value="60">pepperoni =ksh60</option>
+            <option value="60">onions =ksh60</option>
+        </select>
+    </div>
+</div>
 
 
 
