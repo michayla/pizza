@@ -21,3 +21,5 @@ JAVASCRIPT-We used javascript for dynamics.
  Github:https://michayla.github.io/pizza
   ## Contact information
   email: michukimichelle@gmail.com
+  ## license
+  MIT
