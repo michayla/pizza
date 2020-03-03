@@ -17,3 +17,6 @@ Pizza
  HTML-We used html for displaying the content.
 CSS-We used css and bootstrap for styling the front-end of the website and making the landing page.
 JAVASCRIPT-We used javascript for dynamics.
+ ## Projects live link
+ Github:https://michayla.github.io/pizza
+ 
