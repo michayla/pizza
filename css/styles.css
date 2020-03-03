@@ -92,7 +92,7 @@ p{
     font-family: 'Lobster';
     font-size: xx-large;
     font-display: swap;
-    color: wheat
+    color: rgb(10, 181, 248)
 }
 .aboutus{
     text-align: center;
@@ -102,7 +102,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center; 
-    background-image: url("../images/pizza2.jpg");
+    background-image: url("../images/pizza.jpg");
 }
 #order{
     border-image-width: auto;
