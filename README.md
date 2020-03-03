@@ -19,4 +19,5 @@ CSS-We used css and bootstrap for styling the front-end of the website and makin
 JAVASCRIPT-We used javascript for dynamics.
  ## Projects live link
  Github:https://michayla.github.io/pizza
- 
+  ## Contact information
+  email: michukimichelle@gmail.com
