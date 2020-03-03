@@ -1,32 +1,20 @@
 function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
       x.className += " responsive";
-    } else {
+  } else {
       x.className = "topnav";
-    }
   }
-  function getSizeValue() {
-    var selectedValue = document.getElementById("size").value;
-    return parseInt(selectedValue);
-}
-function getCrust() {
-    var selectedCrust = document.getElementById("crust").value;
-    return parseInt(selectedCrust);
-}
-function getToppings() {
-    var selectedToppings = document.getElementById("toppings").value;
-    return parseInt(selectedToppings);
-}
-function getQuantity() {
-    var selectedQuantity = document.getElementById("quantity").value;
-    return parseInt(selectedQuantity);
 }
 function getTotalAmount() {
-    var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-    alert("You have Ordered" + getQuantity("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
-    prompt("enter your location")
-    alert("You delivery fee is 150/=")
-    alert("You order will be delivered shortly")
-    alert("Continue shoppping with us each and every time .")
+  var selectedValue = parseInt(document.getElementById("size").value);
+  var selectedCrust = parseInt(document.getElementById("crust").value);
+  var selectedToppings = parseInt(document.getElementById("toppings").value);
+  var selectedQuantity = parseInt(document.getElementById("quantity").value);
+  var selectedLocation = document.getElementById("location") . value;
+  var totalAmount = parseInt((selectedValue + selectedCrust + selectedToppings)*selectedQuantity);
+  alert("You have Ordered " + selectedQuantity +  " pizzas" + " selectedLocation "  +  ""  +  " The Total Amount is kshs "  + totalAmount +  ""  +  " Thank you for your order welcome again.");
+  alert("You delivery fee is 150/=")
+  alert("You order will be delivered shortly ")
+  alert("Continue shoppping with us each and every time .")
 }

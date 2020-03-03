@@ -87,30 +87,30 @@
                             <div class="col-md-3">
                                 <label for="toppings" name="toppings" style="color:orange">Toppings</label>
                                 <select class="browser-default custom-select" id="toppings">
-                                    <option value="60">Choose option</option>
-                                    <option value="60">Cheese =ksh60</option>
-                                    <option value="60">pepperoni =ksh60
-                                    <option value="60">Cheese =ksh60</option>
-                                    <option value="60">pepperoni =ksh60</option>
-                                    <option value="60">onions =ksh60</option>
+                                    <option value="">Choose option</option>
+                                    <option value="120">Cheese =ksh120</option>
+                                    <option value="80">pepperoni =ksh80
+                                    <option value="50">Olive =ksh50</option>
+                                    <option value="60">bacon =ksh60</option>
+                                    <option value="100">onions =ksh100</option>
                                 </select>
                             </div>
                             <div class="col-md-3">
                                 <label for="quantity" style="color: orange">Quantity</label>
-                                <input class="form-control" type="text" name="pizza" id="quantity" placeholder="0"
+                                <input class="form-control" type="number" name="pizza" id="quantity" placeholder="0"
                                         max="" min="0">
                             </div>
                         </div><br>
-                        <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                        
                         <div class="cdata-overlay"><br>
                                     <input type="text" class="form-control cdata"
                                             placeholder="Enter your Name:">
                                     <input type="text" class="form-control cdata"
                                                 placeholder="Enter your phone number: ">
-                                    <input type="text" class="form-control cdata"
+                                    <input type="text" class="form-control cdata" id="location"
                                                 placeholder="Enter the location: "><br>
                                 <button class="btn btn-success mx-auto d-block submit" type="submit"
-                                            id="submit2" onclick="getTotalAmount();"><strong>Checkout</strong></button>
+                                            id="submit2" onclick="getTotalAmount()"><strong>Checkout</strong></button>
                         </div><br>
                     <div class="aboutus" id="about">
                         <h2>ABOUT US</h2>
@@ -131,7 +131,7 @@
                               <small id="emailHelp"></small>
                             </div>
                             <div class="form-group">
-                              <label for="phonenumber">Password</label>
+                              <label for="phonenumber">PhoneNumber</label>
                               <input type="phone number" class="form-control" id="number">
                             </div>
                          
