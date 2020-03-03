@@ -77,15 +77,16 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center; 
-    background-color: cornflowerblue;
+    padding-top: 30px;
     
+      
     
 }
 p{
     font-family: 'Lobster';
     font-size: xx-large;
     font-display: swap;
-    color: cadetblue;
+    color: rgb(238, 5, 36);
 }
 .aboutus{
     text-align: center;
@@ -97,5 +98,7 @@ p{
     text-align: center; 
     background-image: url("../images/pizza2.jpg");
 }
-
+#order{
+    border-image-width: auto;
+}
    
